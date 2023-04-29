@@ -20,6 +20,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  background-color: var(--white-background-color);
 }
 
 .list {
@@ -40,11 +41,19 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--primary-brand-color);
+}
+
+.header-second-part-logo {
   color: var(--dark-color);
 }
 
-.logo > span {
-  color: var(--primary-brand-color);
+.footer-second-part-logo {
+  color: var(--light-color)
+}
+
+.comp-adress{
+font-style: normal;
 }
 
 .menu-item {
@@ -64,7 +73,6 @@ button {
 }
 
 .contact-list-link {
-  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   color: var(--body-text-color);
@@ -85,9 +93,11 @@ button {
   line-height: 1.07;
   text-align: center;
   color: var(--white-background-color);
+  letter-spacing: 0.02em;
 }
 
 .modal-btn {
+  font-family: 'Roboto' , sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -96,6 +106,7 @@ button {
   letter-spacing: 0.04em;
   color: var(--white-background-color);
   background-color: var(--primary-brand-color);
+
 }
 
 .modal-btn:hover,
@@ -108,6 +119,7 @@ button {
   font-size: 20px;
   line-height: 1.2;
   color: var(--dark-color);
+  letter-spacing: 0.02em;
 }
 
 .main-page-section-title {
@@ -116,6 +128,9 @@ button {
   line-height: 1.11;
   text-align: center;
   color: var(--dark-color);
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
 }
 
 .employees {
@@ -132,15 +147,13 @@ button {
   line-height: 1.2;
   text-align: center;
   color: var(--dark-color);
+  letter-spacing: 0.02em;
 }
 
 .footer {
   background-color: var(--dark-color);
 }
 
-.footer-logo {
-  color: var(--light-color);
-}
 
 .footer-text {
   color: var(--light-color);
