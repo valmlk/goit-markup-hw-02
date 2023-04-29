@@ -185,5 +185,6 @@ font-style: normal;
 }
 
 .works-description {
+  color: var(--body-text-color);
 }
 
